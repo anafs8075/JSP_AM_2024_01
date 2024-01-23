@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+C:\work\sts-4.21.0.RELEASE-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\421602004.index
+\JSP_AM_2024_01\src\main\java
+C:\work\sts-4.21.0.RELEASE-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1009362967.index
+\JSP_AM_2024_01\src\main\java
+C:\work\sts-4.21.0.RELEASE-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\770558017.index
+\JSP_AM_2024_01\src\main\java
+C:\work\sts-4.21.0.RELEASE-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2206768075.index
+\JSP_AM_2024_01\src\main\java
