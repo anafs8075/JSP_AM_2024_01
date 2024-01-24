@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.util.Map;
 
 import com.KoreaIT.java.Jsp_AM.config.Config;
+import com.KoreaIT.java.Jsp_AM.exception.SQLErrorException;
 import com.KoreaIT.java.Jsp_AM.util.DBUtil;
 import com.KoreaIT.java.Jsp_AM.util.SecSql;
 
@@ -41,7 +42,7 @@ public class ArticleDeleteServlet extends HttpServlet {
 
 			SecSql sql = SecSql.from("DELETE");
 			sql.append("FROM article");
-			sql.append("WHERE id = ?;", id);
+			sql.append("WHERE i = ?;", id);
 
 			DBUtil.delete(conn, sql);
 
@@ -50,6 +51,8 @@ public class ArticleDeleteServlet extends HttpServlet {
 
 		} catch (SQLException e) {
 			System.out.println("에러 : " + e);
+		} catch (SQLErrorException e) {
+			e.getOrigin().printStackTrace();
 		} finally {
 			try {
 				if (conn != null && !conn.isClosed()) {
